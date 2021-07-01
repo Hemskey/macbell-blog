@@ -1,15 +1,15 @@
 .parallax {
-  background-image: url("../public/images/siteImages/home-2.jpg");
+  background-image: url("../public/images/siteImages/home-1.jpg");
   min-height: 500px;
 
   background-attachment: fixed;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .parallax2 {
-  background-image: url("../public/images/siteImages/home-1.jpg");
+  background-image: url("../public/images/siteImages/home-2.jpg");
   min-height: 500px;
 
   background-attachment: fixed;

@@ -2,7 +2,7 @@
 title: "Sleep"
 date: "09/27/2019"
 author: "KIMBERLEY CAMPBELL"
-image: "sleep.jpg"
+image: "sleep-large.jpg"
 excerpt: ""
 ---
 

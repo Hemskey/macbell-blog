@@ -10,8 +10,8 @@ function BlogCard({ title, image, excerpt, date, slug }) {
           <Image
             src={image}
             alt={title}
-            height={200}
-            width={200}
+            height={500}
+            width={500}
             layout="responsive"
           />
           <div className="px-6 py-4 text-center bg-transparent">

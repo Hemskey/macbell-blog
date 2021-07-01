@@ -2,7 +2,7 @@
 title: "What is Minimalism?"
 date: "03/22/2020"
 author: "Kimberley Campbell"
-image: "what-is-minimalism.jpg"
+image: "what-is-minimalism-large.jpg"
 excerpt: "What minimalism means to us and questions we ask ourselves when making purchases Read More →"
 ---
 
@@ -29,5 +29,3 @@ But it also means that I have more than one of many things in my home, such as b
 &nbsp;
 
 These questions have helped me eliminate the amount of things I own and only use what I need for my life style. These help me manage the influence of social media, the media in general, and the way other people live their lives. These questions have also helped me use things up and save…a lot.
-
-![NextJS logo](jiro.jpg)
