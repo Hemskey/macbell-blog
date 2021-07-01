@@ -2,7 +2,7 @@
 title: "Setting boundaries for yourself"
 date: "12/20/2020"
 author: "KIMBERLEY CAMPBELL"
-image: "yaoyorozu.png"
+image: "setting-boundaries.jpg"
 excerpt: "Setting boundaries for yourself and others Read More →"
 ---
 

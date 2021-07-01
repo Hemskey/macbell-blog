@@ -2,7 +2,7 @@
 title: "Minimalism in 5 easy steps"
 date: "12/04/2020"
 author: "Kimberley Campbell"
-image: "ochako.png"
+image: "minimalism.jpg"
 excerpt: "5 steps we take for a minimalist lifestyle Read More →"
 ---
 
@@ -11,7 +11,7 @@ excerpt: "5 steps we take for a minimalist lifestyle Read More →"
 
 ---
 
-# 1. Don’t buy things because you want them…buy things because you need them
+## 1. Don’t buy things because you want them…buy things because you need them
 
 &nbsp;
 
@@ -19,7 +19,7 @@ This one doesn’t need much of an explanation right? Buy what you need and not 
 
 &nbsp;
 
-# 2. Be intentional
+## 2. Be intentional
 
 &nbsp;
 
@@ -27,7 +27,7 @@ Everything in a minimalist household has a purpose and a use. Make sure that you
 
 &nbsp;
 
-# 3. No duplicates where applicable
+## 3. No duplicates where applicable
 
 &nbsp;
 
@@ -35,7 +35,7 @@ This is a harder point to explain because duplicates aren’t bad but when appli
 
 &nbsp;
 
-# 4. Save space
+## 4. Save space
 
 &nbsp;
 
@@ -43,7 +43,7 @@ Saving space is a huge part of this because having more space is one of the goal
 
 &nbsp;
 
-# 5. No one-use items
+## 5. No one-use items
 
 &nbsp;
 
