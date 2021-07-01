@@ -2,7 +2,7 @@
 title: "Joe's Journal | Financial Independence | Do I buy the new phone?"
 date: "10/12/2020"
 author: "KIMBERLEY CAMPBELL"
-image: "jiro.jpg"
+image: "phone.jpg"
 excerpt: "Discussing the total cost of using a cell phone, especially when upgrading my phone. There’s a struggle when it comes to spending money, and throughout our pursuit for financial independence the aversion to spending has become greater as time goes on. Read More →"
 ---
 

@@ -5,7 +5,7 @@ function PostHeader({ title, author, date, image }) {
     <header className="mb-6 mt-10">
       <div className="flex flex-row text-sm tracking-wider mb-6 justify-center space-x-1 text-gray-400 text-center">
         <p>{author} </p>
-        <div style={{ fontSize: "5px", paddingTop: "3px" }}>&#9679;</div>
+        <div style={{ fontSize: "5px", paddingTop: "5px" }}>&#9679;</div>
         <p>{date}</p>
       </div>
 

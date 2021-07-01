@@ -2,7 +2,7 @@
 title: "Joe's Journal | Financial Independence | Stay the Course"
 date: "03/19/2020"
 author: "Kimberley Campbell"
-image: "todoroki.jpg"
+image: "stay-the-course.jpg"
 excerpt: "How we plan on staying the course, and taking the economic downturn and capitalizing on the downfall. Read More →"
 ---
 
