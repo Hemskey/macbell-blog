@@ -46,8 +46,8 @@ export function getAllPosts() {
   });
 
   // sorting more recent posts in front of older posts
-  const sortedPostsArray = allPosts.sort((postA, postB) =>
-    postA.date > postB.date ? -1 : 1
+  const sortedPostsArray = allPosts.sort(
+    (postA, postB) => new Date(postB.date) - new Date(postA.date)
   );
 
   return sortedPostsArray;
