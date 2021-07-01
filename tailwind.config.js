@@ -40,6 +40,7 @@ module.exports = {
               fontWeight: "600",
             },
             li: {
+              fontSize: "1.25rem",
               color: "rgba(29,29,29,.7)",
               lineHeight: "1.8rem",
               fontWeight: "300",

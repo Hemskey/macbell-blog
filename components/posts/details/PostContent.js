@@ -36,7 +36,7 @@ function PostContent({ post }) {
       <div className="container max-w-4xl mx-auto">
         <PostHeader title={post.title} author={post.author} date={post.date} />
         <ReactMarkdown
-          className="prose prose-sm max-w-md mx-auto"
+          className="prose prose-sm max-w-xl mx-auto"
           components={customRenderers}
         >
           {post.content}
