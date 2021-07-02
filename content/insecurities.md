@@ -2,7 +2,7 @@
 title: "Insecurities"
 date: "02/01/2020"
 author: "KIMBERLEY CAMPBELL"
-image: "insecurities-large.jpg"
+image: "insecurities-large-cropped.jpg"
 excerpt: ""
 ---
 

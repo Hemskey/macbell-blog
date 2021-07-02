@@ -2,7 +2,7 @@
 title: "Grocery Update - Week 6"
 date: "10/06/2019"
 author: "KIMBERLEY CAMPBELL"
-image: "grocery-6-small.jpg"
+image: "grocery-6-large-cropped.jpg"
 excerpt: ""
 ---
 

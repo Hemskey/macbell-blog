@@ -46,7 +46,7 @@ function Navbar() {
 
       <ul className="tracking-widest text-xl mx-5 my-5 md:w-full ">
         <li className="flex flex-row justify-end md:justify-center">
-          <Link href="/posts">
+          <Link href="/">
             <a className="w-1/2 md:w-full">
               <Logo />
             </a>
