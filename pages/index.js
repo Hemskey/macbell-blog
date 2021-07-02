@@ -1,4 +1,3 @@
-// nextjs components
 import Head from "next/head";
 // styles
 import styles from "../styles/Home.module.css";
