@@ -2,7 +2,7 @@
 title: "Minimalism in 5 easy steps"
 date: "12/04/2020"
 author: "Kimberley Campbell"
-image: "minimalism.jpg"
+image: "minimalism-large-crop.jpg"
 excerpt: "5 steps we take for a minimalist lifestyle Read More →"
 ---
 
