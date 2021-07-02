@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Logo from "./Logo";
 import Image from "next/image";
-// styles
 
 function Navbar() {
   const [open, setOpen] = useState(false);
