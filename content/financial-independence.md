@@ -2,7 +2,7 @@
 title: "Joe's Journal | Financial independence"
 date: "01/07/2020"
 author: "KIMBERLEY CAMPBELL"
-image: "fi-large.jpg"
+image: "fi-large-cropped.jpg"
 excerpt: "The first update towards our financial independence. Enjoy, and feel free to ask questions on our Instagram. Read More →"
 ---
 

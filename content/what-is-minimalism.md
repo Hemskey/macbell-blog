@@ -2,7 +2,7 @@
 title: "What is Minimalism?"
 date: "03/22/2020"
 author: "Kimberley Campbell"
-image: "what-is-minimalism-large.jpg"
+image: "what-is-minimalism-large-cropped.jpg"
 excerpt: "What minimalism means to us and questions we ask ourselves when making purchases Read More →"
 ---
 

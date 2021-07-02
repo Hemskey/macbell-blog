@@ -2,7 +2,7 @@
 title: "How I paid off $70k in debt (Less than one year after I graduated)"
 date: "03/16/2020"
 author: "Kimberley Campbell"
-image: "debt-large.jpg"
+image: "debt-large-cropped.jpg"
 excerpt: ""
 ---
 

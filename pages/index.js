@@ -6,9 +6,9 @@ const homePageContent = [
   {
     image: "seattle-hero.jpg",
     paragraph1:
-      "Themes that we focus on often are health, happiness, and some damn good ice cream. We met and fell in love while being healthy and active, making gym goals, and balancing macros. With this combination of food and fitness we’ve become the healthiest versions of ourselves and would love the opportunity to share that here.",
+      "Our little corner of the internet includes stories and adventures from our little life. We thought it would be a fun way to write down our thoughts, be a little more intentional with our actions, and look back on our memories. We are a happy bunch and are happy you’re along for the ride.",
     paragraph2:
-      "A promise we’ve made ourselves is to constantly be authentic. We will be real as we write out our every day actions and feelings. We do this because we think the world needs a little more real.",
+      "We live in Seattle, WA with our furry black lab Harley who says woof! We are both full time corporate American workers but when we have time off we use that for travel, learning, and fun hobbies. As you see the theme of our blog change over time, it reflects our learning and interests as they shift. ",
   },
   {
     image: "home-1.jpg",
@@ -39,7 +39,7 @@ export default function Home() {
             {homePageContent[0].paragraph1}
           </p>
           <p className="text-gray-500 font-light tracking-wider mb-20 text-lg">
-            {homePageContent[0].paragraph1}
+            {homePageContent[0].paragraph2}
           </p>
         </div>
       </div>
