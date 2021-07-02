@@ -65,6 +65,9 @@ module.exports = {
         "6xl": "4rem",
         "7xl": "5rem",
       },
+      zIndex: {
+        "-10": "-10",
+      },
     },
   },
   variants: {
