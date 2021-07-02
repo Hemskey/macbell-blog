@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Logo from "./Logo";
+import Image from "next/image";
 // styles
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
@@ -19,12 +20,15 @@ function Navbar() {
   return (
     <header className="flex flex-row justify-between mt-2 items-center w-full">
       <button className="focus:outline-none focus:border-transparent">
-        <img
-          onClick={handleMenuOpening}
-          className="ml-6 md:hidden block text-md"
-          width="20"
-          src="https://img.icons8.com/material-outlined/24/000000/menu--v1.png"
-        />
+        <div className="ml-6 md:hidden block text-md">
+          <Image
+            onClick={handleMenuOpening}
+            height={20}
+            width={20}
+            layout="intrinsic"
+            src={"/images/siteImages/hamburger.png"}
+          />
+        </div>
       </button>
       <ul
         className={`${
