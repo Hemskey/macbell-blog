@@ -3,8 +3,6 @@ import Link from "next/link";
 import Logo from "./Logo";
 import Image from "next/image";
 // styles
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 function Navbar() {
   const [open, setOpen] = useState(false);
