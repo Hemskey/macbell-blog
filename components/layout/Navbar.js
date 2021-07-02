@@ -7,7 +7,7 @@ import Image from "next/image";
 function Navbar() {
   const [open, setOpen] = useState(false);
 
-  const handleMenuOpening = () => {
+  const handleNavOpening = () => {
     setOpen((prevOpen) => !prevOpen);
   };
 
@@ -20,7 +20,7 @@ function Navbar() {
       <button className="focus:outline-none focus:border-transparent">
         <div className="ml-6 md:hidden block text-md">
           <Image
-            onClick={handleMenuOpening}
+            onClick={handleNavOpening}
             height={20}
             width={20}
             layout="intrinsic"
