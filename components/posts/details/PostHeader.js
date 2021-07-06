@@ -9,7 +9,7 @@ function PostHeader({ title, author, date, image }) {
         <p>{date}</p>
       </div>
 
-      <h1 className="text-center text-6xl font-light">{title}</h1>
+      <h1 className="text-center text-6xl font-light text-gray-700">{title}</h1>
     </header>
   );
 }

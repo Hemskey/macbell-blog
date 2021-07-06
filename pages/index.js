@@ -31,7 +31,9 @@ export default function Home() {
       <Head>
         <title>The Macbell Clan</title>
       </Head>
-      <div className={`${styles.parallax} mt-1`}></div>
+
+      <div className="parallax  lg:parallax-sm mt-1"></div>
+
       <div className="container w-10/12 mx-auto  sm:w-8/12 md:w-7/12 lg:w-5/12 ">
         <div>
           <p className="text-gray-500 font-light tracking-wider mb-6 mt-20 text-lg">

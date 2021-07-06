@@ -1,10 +1,19 @@
 .parallax {
-  background-image: url("../public/images/siteImages/home-1.jpg");
-  min-height: 500px;
+  background-image: url("../public/images/siteImages/home-1-crop.jpg");
+  min-height: 570px;
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.parallax-sm {
+  background-image: url("../public/images/siteImages/home-1-crop.jpg");
+  min-height: 570px;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .parallax2 {

@@ -14,3 +14,25 @@
     @apply font-body;
   }
 }
+
+@layer utilities {
+  @variants responsive {
+    .parallax {
+      background-image: url("../public/images/siteImages/home-1-crop.jpg");
+      min-height: 570px;
+      background-attachment: fixed;
+      background-position: top;
+      background-repeat: no-repeat;
+      background-size: auto;
+    }
+
+    .parallax-sm {
+      background-image: url("../public/images/siteImages/home-1-crop.jpg");
+      min-height: 570px;
+      background-attachment: fixed;
+      background-position: top;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  }
+}
