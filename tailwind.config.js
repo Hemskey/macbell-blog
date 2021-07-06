@@ -3,11 +3,15 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      typography: {
+      typography: (theme) => ({
         DEFAULT: {
           css: {
+            color: theme("colors.coolGray.800"),
             a: {
               color: "#853737",
+            },
+            strong: {
+              color: "#374151",
             },
             p: {
               fontSize: "1.25rem",
@@ -21,7 +25,6 @@ module.exports = {
             },
             h2: {
               color: "#4b5563",
-              fontWeight: "600",
             },
             h3: {
               color: "#4b5563",
@@ -47,7 +50,7 @@ module.exports = {
             },
           },
         },
-      },
+      }),
       fontFamily: {
         body: ["Rubik"],
       },
