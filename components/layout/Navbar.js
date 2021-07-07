@@ -44,7 +44,10 @@ function Navbar() {
       </ul>
 
       <ul className="tracking-widest text-xl mx-5 my-5 md:w-full items-center">
-        <li className="flex flex-row justify-start md:static  ">
+        <li
+          onClick={closeMenuOnLinkClick}
+          className="flex flex-row justify-start md:static"
+        >
           <Link href="/">
             <a className="w-1/2 md:w-full">
               <Logo />

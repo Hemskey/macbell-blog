@@ -14,7 +14,8 @@ function MyApp({ Component, pageProps, router }) {
       </Head>
       <motion.div
         //router lets motion recognize route change
-        key={router.route}
+
+        key={router.asPath}
         initial="pageInitial"
         animate="pageAnimate"
         variants={{

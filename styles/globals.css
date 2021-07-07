@@ -19,20 +19,67 @@
   @variants responsive {
     .parallax {
       background-image: url("../public/images/siteImages/home-1-crop.jpg");
-      min-height: 570px;
+      min-height: 200px;
       background-attachment: fixed;
       background-position: top;
       background-repeat: no-repeat;
-      background-size: auto;
+      background-size: auto 50%;
     }
-
-    .parallax-sm {
-      background-image: url("../public/images/siteImages/home-1-crop.jpg");
-      min-height: 570px;
+    .parallax-md {
+      background-image: url("../public/images/siteImages/home-1.jpg");
+      min-height: 460px;
       background-attachment: fixed;
       background-position: top;
       background-repeat: no-repeat;
       background-size: contain;
+    }
+    .parallax-lg {
+      background-image: url("../public/images/siteImages/home-1.jpg");
+      min-height: 460px;
+      background-attachment: fixed;
+      background-position: top;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .parallax-xl {
+      background-image: url("../public/images/siteImages/home-1.jpg");
+      min-height: 460px;
+      background-attachment: fixed;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .parallax2 {
+      background-image: url("../public/images/siteImages/home-2.jpg");
+      min-height: 150px;
+      background-attachment: scroll;
+      background-position: 50% 40%;
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+    }
+    .parallax-md-2 {
+      background-image: url("../public/images/siteImages/home-2.jpg");
+      min-height: 320px;
+      background-attachment: scroll;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .parallax3 {
+      background-image: url("../public/images/siteImages/home-3.jpg");
+      min-height: 300px;
+      background-attachment: scroll;
+      background-position: bottom;
+      background-repeat: no-repeat;
+      background-size: auto 100%;
+    }
+    .parallax-md-3 {
+      background-image: url("../public/images/siteImages/home-3.jpg");
+      min-height: 460px;
+      background-attachment: scroll;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
     }
   }
 }

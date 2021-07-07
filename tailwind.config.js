@@ -18,31 +18,40 @@ module.exports = {
               color: "rgba(29,29,29,.7)",
               lineHeight: "1.8rem",
               fontWeight: "300",
+              paddingLeft: "20px",
+              paddingRight: "10px",
             },
             h1: {
               color: "#4b5563",
               fontWeight: "600",
+              paddingLeft: "20px",
             },
             h2: {
+              paddingLeft: "20px",
               color: "#4b5563",
             },
             h3: {
+              paddingLeft: "20px",
               color: "#4b5563",
               fontWeight: "600",
             },
             h4: {
+              paddingLeft: "20px",
               color: "#4b5563",
               fontWeight: "600",
             },
             h5: {
+              paddingLeft: "20px",
               color: "#4b5563",
               fontWeight: "600",
             },
             h6: {
+              paddingLeft: "20px",
               color: "#4b5563",
               fontWeight: "600",
             },
             li: {
+              paddingLeft: "20px",
               fontSize: "1.25rem",
               color: "rgba(29,29,29,.7)",
               lineHeight: "1.8rem",

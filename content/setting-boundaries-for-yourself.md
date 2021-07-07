@@ -37,7 +37,3 @@ The best boundaries are those that are entirely clear. Whether that’s through 
 ## **5) Accept that people might walk away**
 
 New standards means some people will not meet them and that is okay.
-
-&nbsp;
-
-![placeholder](https://source.unsplash.com/user/erondu/1600x900)
