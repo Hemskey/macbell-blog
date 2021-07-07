@@ -168,7 +168,7 @@ function ContactForm() {
           </label>
           <input
             className="w-full mt-2 mb-6 px-4 py-2 border  text-gray-700 focus:outline-none focus:border-black bg-gray-50 text-xs"
-            type="text"
+            type="email"
             id="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
