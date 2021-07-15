@@ -17,6 +17,9 @@ module.exports = {
       // => @media (min-width: 1280px) { ... }
     },
     extend: {
+      inset: {
+        22: "88px",
+      },
       typography: (theme) => ({
         DEFAULT: {
           css: {
