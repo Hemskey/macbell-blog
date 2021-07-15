@@ -1,10 +1,13 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import Link from "next/link";
 import Logo from "./Logo";
 import Image from "next/image";
+import { NavContext } from "../../context/NavCloseContext";
 
 function Navbar() {
-  const [open, setOpen] = useState(false);
+  const { open, setOpen } = useContext(NavContext);
+
+  // const [open, setOpen] = useState(false);
 
   const handleNavOpening = () => {
     setOpen((prevOpen) => !prevOpen);
