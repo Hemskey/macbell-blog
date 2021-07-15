@@ -30,7 +30,7 @@ function Navbar() {
       <ul
         className={`${
           open ? "block" : "hidden"
-        } absolute pt-0 top-12 left-0 flex-col w-full p-6 -space-y-0.5 md:space-y-0 bg-white shadow-md rounded-lg z-20 md:relative md:top-0 md:z-0 md:flex md:flex-row md:space-x-3 md:rounded-none md:shadow-none md:bg-transparent md:p-6 md:justify-end text-xs tracking-widest  lg:mr-32 md:ml-1 lg:ml-1 xl:ml-0 xl:mr-72`}
+        } absolute pt-0 top-12 left-0 flex-col w-full p-6 -space-y-0.5 md:space-y-0 bg-white shadow-md rounded-lg z-20 md:relative md:top-0 md:z-0 md:flex md:flex-row md:space-x-3 md:rounded-none md:shadow-none md:bg-transparent md:p-8 md:justify-end text-xs tracking-widest  lg:mr-32 md:ml-1 lg:ml-1 xl:ml-0 xl:mr-72`}
       >
         <li onClick={closeMenuOnLinkClick}>
           <Link href="/">HOME</Link>
