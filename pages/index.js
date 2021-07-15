@@ -33,11 +33,11 @@ export default function Home() {
           <title>The Macbell Clan</title>
         </Head>
 
-        <div className="parallax md:parallax-md lg:parallax-lg xl:parallax-xl mt-1"></div>
+        <div className="parallax md:parallax-md lg:parallax-lg mt-1"></div>
 
         <div className="container w-10/12 mx-auto  sm:w-8/12 md:w-7/12 lg:w-5/12 ">
           <div>
-            <p className="text-gray-500 font-light tracking-wider mb-6 mt-20 text-lg">
+            <p className="text-gray-500 font-light tracking-wider mb-6 mt-20 text-lg ">
               {homePageContent[0].paragraph1}
             </p>
             <p className="text-gray-500 font-light tracking-wider mb-20 text-lg">
@@ -45,7 +45,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="parallax2 md:parallax-md-2"></div>
+        <div className="parallax2 md:parallax-md-2 lg:parallax-lg-2"></div>
         <div className="container w-10/12 mx-auto  sm:w-8/12 md:w-7/12 lg:w-5/12 ">
           <div>
             <p className="text-gray-500 font-light tracking-wider mb-6 mt-20 text-lg">
