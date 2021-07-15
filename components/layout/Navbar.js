@@ -18,9 +18,9 @@ function Navbar() {
   };
 
   return (
-    <header className="flex flex-row justify-between items-center w-full">
+    <header className="flex flex-row justify-between py-2 items-center relative w-full ">
       <button className="focus:outline-none focus:border-transparent">
-        <div className="ml-6 md:hidden block text-md">
+        <div className="ml-6 md:hidden block text-md mt-2">
           <Image
             onClick={handleNavOpening}
             height={20}
@@ -49,7 +49,7 @@ function Navbar() {
       <ul className="tracking-widest text-xl mx-5 my-5 md:w-full items-center">
         <li
           onClick={closeMenuOnLinkClick}
-          className="flex flex-row justify-start md:static"
+          className="flex flex-row absolute inset-0 ml-1 xs:ml-3 sm:ml-10 md:ml-0 left-20 xs:left-1/4 top-1/3 sm:left-1/4 sm:top-1/3 md:static"
         >
           <Link href="/">
             <a className="w-1/2 md:w-full">
@@ -62,7 +62,7 @@ function Navbar() {
       <ul
         className={`${
           open ? "block" : "hidden"
-        } absolute top-20 left-0 z-20 flex-col w-full -space-y-0.5 md:space-y-0 bg-white shadow-md rounded-lg p-6 md:relative md:top-0 md:flex md:flex-row md:space-x-3 md:rounded-none md:shadow-none md:bg-transparent  lg:ml-32 xl:ml-72 md:p-6 pt-0 text-xs tracking-widest md:justify-start`}
+        } absolute top-20 left-0 z-20 flex-col w-full -space-y-0.5 md:space-y-0 bg-white shadow-md rounded-lg p-6 md:relative md:top-0 md:flex md:flex-row md:space-x-3 md:rounded-none md:shadow-none md:bg-transparent md:mr-3  lg:ml-32 xl:ml-72 md:p-6 pt-0 text-xs tracking-widest md:justify-start`}
       >
         <li onClick={closeMenuOnLinkClick}>
           <Link href="/contact">CONTACT</Link>
