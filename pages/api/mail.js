@@ -10,15 +10,15 @@ export default (req, res) => {
   Message: ${body.message}
   `;
 
-  // const data = {
-  //   to: "themacbellclan@gmail.com",
-  //   from: "Blog@macbellclan.com",
-  //   subject: "Contact Form Message",
-  //   text: message,
-  //   html: message.replace(/\r\n/g, "<br>"),
-  // };
+  const data = {
+    to: "themacbellclan@gmail.com",
+    from: "Blog@macbellclan.com",
+    subject: "Contact Form Message",
+    text: message,
+    html: message.replace(/\r\n/g, "<br>"),
+  };
 
-  // mail.send(data);
+  mail.send(data);
   console.log(body);
 
   res.status(200).json({ status: "okay" });
