@@ -82,6 +82,13 @@ function ContactForm() {
     }
   }
 
+  async function emailMessageData(messageDetails) {
+    const response = await fetch("/api/mail", {
+      method: "POST",
+      body: JSON.stringify(messageDetails),
+    });
+  }
+
   async function handleSubmit(e) {
     e.preventDefault();
 
@@ -94,6 +101,13 @@ function ContactForm() {
         email: email,
         subject: subject,
         message: message,
+      });
+      await emailMessageData({
+        firstName,
+        lastName,
+        email,
+        subject,
+        message,
       });
       setStatus("success");
     } catch (error) {
