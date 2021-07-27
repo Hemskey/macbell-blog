@@ -86,9 +86,6 @@ function ContactForm() {
     const response = await fetch("/api/mail", {
       method: "POST",
       body: JSON.stringify(messageDetails),
-      headers: {
-        "Content-Type": "application/json",
-      },
     });
 
     const data = await response.json();
