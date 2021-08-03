@@ -84,13 +84,9 @@ function ContactForm() {
 
   async function emailMessageData(messageDetails) {
     const response = await fetch("/api/mail", {
-      method: "POST",
+      method: "post",
       body: JSON.stringify(messageDetails),
     });
-    const data = await response.json();
-    if (!response.ok) {
-      throw new Error(data.message || "Something went wrong");
-    }
   }
 
   async function handleSubmit(e) {
