@@ -2,11 +2,11 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-function SocialMedia({ image, name, position }) {
+function SocialMedia({ image, name, position, link }) {
   return (
     <div className="flex flex-col items-center">
       <div className="relative h-80 w-80 flex flex-col mb-3 mt-5">
-        <Link href="https://www.instagram.com/hellomariko/">
+        <Link href={link}>
           <a>
             <Image
               src={image}
