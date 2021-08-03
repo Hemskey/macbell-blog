@@ -15,12 +15,13 @@ function socialmedia() {
         <hr className="w-7/12 my-10"></hr>
         <SocialMedia
           name="Kimberley Campbell"
-          image="/images/siteImages/beach-hero.jpg"
+          image="/images/siteImages/kim.jpg"
         />
 
         <SocialMedia
           name="Joseph MacDonald"
-          image="/images/siteImages/beach-hero.jpg"
+          image="/images/siteImages/joe.jpg"
+          position="80% 20%"
         />
       </div>
     </>
