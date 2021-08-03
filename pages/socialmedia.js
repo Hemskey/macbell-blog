@@ -16,12 +16,14 @@ function socialmedia() {
         <SocialMedia
           name="Kimberley Campbell"
           image="/images/siteImages/kim.jpg"
+          link="https://www.instagram.com/hellomariko/"
         />
 
         <SocialMedia
-          name="Joseph MacDonald"
+          name="Joe MacDonald"
           image="/images/siteImages/joe.jpg"
           position="80% 20%"
+          link="https://www.instagram.com/hemskey_/"
         />
       </div>
     </>
