@@ -82,9 +82,13 @@ function ContactForm() {
     }
   }
 
-  async function emailMessageData(messageDetails) {
+   async function emailMessageData(messageDetails) {
     const response = await fetch("/api/mail", {
       method: "post",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${process.env.SENDGRID_API_KEY}`,
+      },
       body: JSON.stringify(messageDetails),
     });
   }
