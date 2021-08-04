@@ -37,6 +37,14 @@ function ContactForm() {
       throw new Error(data.message || "Something went wrong");
     }
   }
+  
+  const clearForm = () => {
+    setFirstName("");
+    setLastName("");
+    setEmail("");
+    setSubject("");
+    setMessage("");
+  };
 
   async function handleSubmit(e) {
     e.preventDefault();
@@ -69,8 +77,9 @@ function ContactForm() {
             console.log(e.target);
           }
         );
-
-
+      
+      await clearForm();
+      
       setStatus("success");
     } catch (error) {
       setMessageError(error.message);
