@@ -19,7 +19,6 @@ export default (req, res) => {
   };
 
   mail.send(data);
-
   console.log(body);
 
   res.status(200).json({ status: "okay" });

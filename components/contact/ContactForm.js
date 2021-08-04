@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Notification from "./Notification";
-
-// const nodemailer = require("nodemailer");
-// const { google } = require("googleapis");
+import emailjs from "emailjs-com";
 
 function ContactForm() {
   const [firstName, setFirstName] = useState("");
@@ -12,48 +10,6 @@ function ContactForm() {
   const [message, setMessage] = useState("");
   const [status, setStatus] = useState();
   const [messageError, setMessageError] = useState();
-
-  ///////
-
-  // const oauth2Client = new google.auth.OAuth2(
-  //   process.env.CLIENT_ID,
-  //   process.env.CLIENT_SECRET,
-  //   process.env.REDIRECT_URI
-  // );
-  // oauth2Client.setCredentials({ refresh_token: process.env.REFRESH_TOKEN });
-
-  // async function sendMail() {
-  //   try {
-  //     // get access token from oauth2 client
-  //     const accessToken = await oauth2Client.getAccessToken();
-  //     const transporter = nodemailer.createTransport({
-  //       service: "Gmail",
-  //       auth: {
-  //         user: process.env.EMAIL,
-  //         pass: process.env.PASSWORD,
-  //         clientId: process.env.CLIENT_ID,
-  //         clientSecret: process.env.CLIENT_SECRET,
-  //         refreshToken: process.env.REFRESH_TOKEN,
-  //         accessToken: accessToken,
-  //       },
-  //     });
-
-  //     const mailData = {
-  //       from: email,
-  //       to: process.env.EMAIL,
-  //       subject: subject,
-  //       text: message,
-  //       html: <div>{message}</div>,
-  //     };
-
-  //     const result = await transporter.sendMail(mailData);
-  //     return result;
-  //   } catch (error) {
-  //     return error;
-  //   }
-  // }
-
-  // //////
 
   useEffect(() => {
     if (status === "success" || status === "error") {
@@ -82,13 +38,6 @@ function ContactForm() {
     }
   }
 
-    async function emailMessageData(messageDetails) {
-    const response = await fetch("/api/mail", {
-      method: "post",
-      body: JSON.stringify(messageDetails),
-    });
-  }
-
   async function handleSubmit(e) {
     e.preventDefault();
 
@@ -102,13 +51,26 @@ function ContactForm() {
         subject: subject,
         message: message,
       });
-      await emailMessageData({
-        firstName,
-        lastName,
-        email,
-        subject,
-        message,
-      });
+
+      await emailjs
+        .sendForm(
+          `${process.env.SERVICE_ID}`,
+          `${process.env.TEMPLATE_ID}`,
+          e.target,
+          `${process.env.USER_ID}`
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+            console.log(e.target);
+          },
+          (error) => {
+            console.log(error.text);
+            console.log(e.target);
+          }
+        );
+
+
       setStatus("success");
     } catch (error) {
       setMessageError(error.message);
@@ -157,6 +119,7 @@ function ContactForm() {
               className="w-full mt-2 mb-6 px-4 py-2 border  text-gray-700 focus:outline-none focus:border-black bg-gray-50 text-xs"
               type="text"
               id="firstName"
+              name="firstName"
               value={firstName}
               onChange={(e) => setFirstName(e.target.value)}
               required
@@ -170,6 +133,7 @@ function ContactForm() {
               className="w-full mt-2 mb-6 px-4 py-2 border  text-gray-700 focus:outline-none focus:border-black bg-gray-50 text-xs"
               type="text"
               id="lastName"
+              name="lastName"
               value={lastName}
               onChange={(e) => setLastName(e.target.value)}
               required
@@ -184,6 +148,7 @@ function ContactForm() {
             className="w-full mt-2 mb-6 px-4 py-2 border  text-gray-700 focus:outline-none focus:border-black bg-gray-50 text-xs"
             type="email"
             id="email"
+            name="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
@@ -198,6 +163,7 @@ function ContactForm() {
             type="text"
             id="subject"
             value={subject}
+            name="subject"
             onChange={(e) => setSubject(e.target.value)}
             required
           />
@@ -210,6 +176,7 @@ function ContactForm() {
             className="w-full mt-2 mb-6 px-4 py-2 border rounded-sm text-gray-700 focus:outline-none focus:border-black bg-gray-50 text-xs"
             rows="3"
             value={message}
+            name="message"
             onChange={(e) => setMessage(e.target.value)}
             required
           ></textarea>
