@@ -1,7 +1,7 @@
 import React from "react";
-// nextjs component
+
 import Link from "next/link";
-// component
+
 import Socials from "./Socials";
 
 function Footer() {
