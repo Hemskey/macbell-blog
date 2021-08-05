@@ -1,6 +1,5 @@
 import React from "react";
 import { motion } from "framer-motion";
-// nextjs component
 import Image from "next/image";
 
 function BlogCard({ title, image, excerpt, date, slug }) {
