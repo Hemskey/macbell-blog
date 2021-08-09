@@ -87,6 +87,7 @@ function ContactForm() {
 
       await clearForm();
 
+
       setStatus("success");
     } catch (error) {
       setMessageError(error.message);
