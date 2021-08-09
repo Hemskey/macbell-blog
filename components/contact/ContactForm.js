@@ -38,6 +38,14 @@ function ContactForm() {
       throw new Error(data.message || "Something went wrong");
     }
   }
+  
+  const clearForm = () => {
+    setFirstName("");
+    setLastName("");
+    setEmail("");
+    setSubject("");
+    setMessage("");
+  };
 
   const clearForm = () => {
     setFirstName("");
@@ -69,10 +77,10 @@ function ContactForm() {
 
       await emailjs
         .sendForm(
-          `${process.env.SERVICE_ID}`,
-          `${process.env.TEMPLATE_ID}`,
+          `${process.env.NEXT_PUBLIC_SERVICE_ID}`,
+          `${process.env.NEXT_PUBLIC_TEMPLATE_ID}`,
           e.target,
-          `${process.env.USER_ID}`
+          `${process.env.NEXT_PUBLIC_USER_ID}`
         )
         .then(
           (result) => {
@@ -86,7 +94,6 @@ function ContactForm() {
         );
 
       await clearForm();
-
 
       setStatus("success");
     } catch (error) {
