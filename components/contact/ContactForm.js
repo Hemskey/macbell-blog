@@ -39,13 +39,6 @@ function ContactForm() {
     }
   }
   
-  const clearForm = () => {
-    setFirstName("");
-    setLastName("");
-    setEmail("");
-    setSubject("");
-    setMessage("");
-  };
 
   const clearForm = () => {
     setFirstName("");
