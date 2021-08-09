@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Notification from "./Notification";
 import emailjs from "emailjs-com";
+import TagManager from "react-gtm-module";
 
 function ContactForm() {
   const [firstName, setFirstName] = useState("");
@@ -38,12 +39,26 @@ function ContactForm() {
     }
   }
 
+  const clearForm = () => {
+    setFirstName("");
+    setLastName("");
+    setEmail("");
+    setSubject("");
+    setMessage("");
+  };
+
   async function handleSubmit(e) {
     e.preventDefault();
 
     setStatus("loading");
 
     try {
+      await TagManager.dataLayer({
+        dataLayer: {
+          event: "formComplete",
+        },
+      });
+
       await sentMessageData({
         firstName: firstName,
         lastName: lastName,
@@ -69,6 +84,8 @@ function ContactForm() {
             console.log(e.target);
           }
         );
+
+      await clearForm();
 
       setStatus("success");
     } catch (error) {

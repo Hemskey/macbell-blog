@@ -1,5 +1,7 @@
+import { useEffect } from "react";
 import Head from "next/head";
 import { motion } from "framer-motion";
+import TagManager from "react-gtm-module";
 // styles
 import "../styles/globals.css";
 
@@ -7,6 +9,17 @@ import Layout from "../components/layout/Layout";
 import { NavContextProvider } from "../context/NavCloseContext";
 
 function MyApp({ Component, pageProps, router }) {
+  const tagManagerArgs = {
+    gtmId: "GTM-W38G69G",
+    // events: {
+    //   formComplete: "formComplete",
+    // },
+  };
+
+  useEffect(() => {
+    TagManager.initialize(tagManagerArgs);
+  }, []);
+
   return (
     <NavContextProvider>
       <Layout>
