@@ -31,6 +31,11 @@ export default function Home() {
       <div className="wrapper">
         <Head>
           <title>The Macbell Clan</title>
+          <meta
+            name="image"
+            property="og:image"
+            content="https://macbellclan/images/siteImages/thumbnail.PNG"
+          />
         </Head>
 
         <div className="parallax md:parallax-md lg:parallax-lg mt-1"></div>
