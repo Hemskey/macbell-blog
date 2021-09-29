@@ -34,7 +34,7 @@ export default function Home() {
           <meta
             name="image"
             property="og:image"
-            content="https://macbellclan/images/siteImages/thumbnail.PNG"
+            content="https://www.macbellclan.com/images/siteImages/thumbnail.PNG"
           />
         </Head>
 
