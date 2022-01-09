@@ -1,8 +1,8 @@
 ---
-title: "Blog post 2"
+title: "Hello From 2022"
 author: "Kimberley Campbell"
 date: "1/8/2022"
-output: html_document
+excerpt: Focus for 2022
 ---
 
 ### Hello from 2022, 
