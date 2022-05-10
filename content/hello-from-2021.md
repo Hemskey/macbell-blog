@@ -2,6 +2,7 @@
 title: "Hello From 2021"
 date: "12/17/2021"
 author: "KIMBERLEY CAMPBELL"
+image: "hello-from-2021"
 excerpt: "Long time no see!"
 ---
 
