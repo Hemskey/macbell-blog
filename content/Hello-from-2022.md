@@ -2,7 +2,7 @@
 title: "hello From 2022"
 author: "Kimberley Campbell"
 date: "1/8/2022"
-image: "IMG_9879.jpg"
+image: "hello-from-2022.jpg"
 excerpt: Focus for 2022
 ---
 
