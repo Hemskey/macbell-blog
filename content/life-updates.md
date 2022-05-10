@@ -2,7 +2,7 @@
 title: "Life Updates"
 date: "05/10/2022"
 author: "Kimberley Campbell"
-image: 
+image: "IMG_4295.jpg"
 excerpt: "What's new?"
 ---
 
