@@ -1,5 +1,5 @@
 ---
-title: "hello From 2022"
+title: "hello from 2022"
 author: "Kimberley Campbell"
 date: "1/8/2022"
 image: "IMG_4051.jpg"
