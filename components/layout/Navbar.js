@@ -42,7 +42,7 @@ function Navbar() {
           <Link href="/posts">BLOG</Link>
         </li>
         <li onClick={closeMenuOnLinkClick}>
-          <Link href="/posts">FAVOURITES</Link>
+          <Link href="/favourites">FAVOURITES</Link>
         </li>
         <li className="text-xs tracking-tighter whitespace-nowrap hidden md:block">
           Our little life
