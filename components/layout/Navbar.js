@@ -44,6 +44,9 @@ function Navbar() {
         <li onClick={closeMenuOnLinkClick}>
           <Link href="/favourites">FAVOURITES</Link>
         </li>
+        <li onClick={closeMenuOnLinkClick}>
+          <Link href="/diy">DIY</Link>
+        </li>
         <li className="text-xs tracking-tighter whitespace-nowrap hidden md:block">
           Our little life
         </li>
