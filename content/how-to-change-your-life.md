@@ -2,7 +2,7 @@
 title: "How to change your life in 6 months"
 date: "5/11/2022"
 author: "Kimberley Campbell"
-image: 
+image: "magic.jpg"
 excerpt: "Changing your life"
 ---
 
