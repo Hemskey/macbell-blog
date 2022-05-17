@@ -1,7 +1,7 @@
 ---
 title: "Post5"
 date: "05/12/2022"
-image: 
+image: "IMG_3647.jpg"
 author: "Kimberley Campbell"
 ---
 
@@ -21,10 +21,9 @@ In our household this one has been hard to take on, we split our food into macro
 # 4. Thrifting 
 One of my favourite things to do is head onto the app Poshmark and find some second-hand items and sell some of my own items I no longer wear. It's fun to bundle up your old things and send them to a home that will use them, and it feels extra good receiving your package of second hand clothes! 
 
-
 # 5. Solar Panels 
 This one we don't have yet but we will get in the future. Solar panels! They give you energy! This reduces the cost of paying for your energy and also helps the environment by using a renewal energy source, aka the sun! Even over here in the Seattle area, although known for cloudy skies most of the time we still have sunlight peaking through even on the rainy days. That sunlight can be converted to energy! This is something we hope to do in the near future for our house.
 
-That was my quick list of 5 things, some things we've already done and others we're just waiting to do! But these are all things we know of and look forward to incorporating into our every day lives as we become more and more sustainable. If you have tips please let us know! We'd love to hear from you. 
+That was my quick list of 5 things, some things we've already done and others we're going to do! But these are all things we know of and look forward to incorporating into our every day lives as we become more and more sustainable. If you have tips please let us know! We'd love to hear from you. 
 
 
