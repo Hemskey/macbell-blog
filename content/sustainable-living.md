@@ -1,5 +1,5 @@
 ---
-title: "Post5"
+title: "5 Quick Tips for Sustainable Living"
 date: "05/12/2022"
 image: "IMG_3647.jpg"
 author: "Kimberley Campbell"
