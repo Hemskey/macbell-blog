@@ -1,5 +1,6 @@
 ---
-title: "5 Quick Tips for Sustainable Living"
+title: "Sustainable Living"
+excerpt: "5 Quick Tips"
 date: "05/12/2022"
 image: "IMG_3647.jpg"
 author: "Kimberley Campbell"
