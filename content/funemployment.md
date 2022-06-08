@@ -3,7 +3,7 @@ title: "One month of funemployment"
 author: "Kimberley Campbell"
 date: "6/8/2022"
 excerpt: "What I've learned so far during my time off work"
-image: "IMG_4426.jpg"
+image: "IMG-4426.jpg"
 ---
 
 ## Funemployment 
