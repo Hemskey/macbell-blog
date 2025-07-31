@@ -4,7 +4,6 @@ author: "Kimberley Campbell"
 date: "07/30/2025"
 image: "IMG_7220.jpg"
 excerpt: "So many changes!"
-output: html_document
 ---
 
 # So many changes ... 
